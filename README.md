@@ -1,6 +1,6 @@
 # DeepLearningProject
 
-This repository contains all code used to train models for each of the 3 objectives described in the project report. Note that training will not run out of the box, original training was performed on a SLURM cluster and some paths are hard coded. I also do not include the data used for training here, if you would like the data please feel free to reach out via email.
+This repository contains all code used to train models for each of the 3 objectives described in the project report. Note that training will not run out of the box, original training was performed on a SLURM cluster and some paths are hard coded. I also do not include the data used for training here, if you would like the data or if you have any questions about this code please feel free to reach out via email.
 
 Objective 1)
 training can be run with the command
@@ -11,3 +11,5 @@ Objective 2)
 
 objective 3)
 `python3 train_dwi.py --preprocess True --num_of_layers 20 --fname p50c5_3 --outf logs/DWItraining_P50dc5_MSE_b64_l20_nl50_6`
+
+Dataset classes include the classes DWIdataset and MRIdataset. Loss function classes are testmse.PS() and optRice.riceML()
