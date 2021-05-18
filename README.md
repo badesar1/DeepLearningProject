@@ -4,10 +4,10 @@ This repository contains all code used to train models for each of the 3 objecti
 
 Objective 1)
 training can be run with the command
-python3 train_fgatir_3dpatch.py --preprocess True --num_of_layers 20 --patchSize 70 --fname P3d70 --outf logs/FGtraining_P3d70_MSE_b64_l20_testAGnoise_nB_PS
+`python3 train_fgatir_3dpatch.py --preprocess True --num_of_layers 20 --patchSize 70 --fname P3d70 --outf logs/FGtraining_P3d70_MSE_b64_l20_testAGnoise_nB_PS`
 
 Objective 2)
-python3 train_fgatir_2dpatch_ricloss.py --preprocess True --num_of_layers 20 --patchSize 50 --fname P2d50 --outf logs/FGtraining_P2d50_MSE_b64_l20_testARnoise_Ricloss_nl75
+`python3 train_fgatir_2dpatch_ricloss.py --preprocess True --num_of_layers 20 --patchSize 50 --fname P2d50 --outf logs/FGtraining_P2d50_MSE_b64_l20_testARnoise_Ricloss_nl75`
 
 objective 3)
-python3 train_dwi.py --preprocess True --num_of_layers 20 --fname p50c5_3 --outf logs/DWItraining_P50dc5_MSE_b64_l20_nl50_6
+`python3 train_dwi.py --preprocess True --num_of_layers 20 --fname p50c5_3 --outf logs/DWItraining_P50dc5_MSE_b64_l20_nl50_6`
